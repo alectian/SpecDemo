@@ -13,6 +13,7 @@
 		17AE914020170A4600EF1ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17AE913F20170A4600EF1ACC /* Assets.xcassets */; };
 		17AE914320170A4600EF1ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AE914120170A4600EF1ACC /* LaunchScreen.storyboard */; };
 		17AE914620170A4600EF1ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AE914520170A4600EF1ACC /* main.m */; };
+		17AE914E20170A7000EF1ACC /* ZTLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AE914D20170A7000EF1ACC /* ZTLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		17AE914220170A4600EF1ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17AE914420170A4600EF1ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17AE914520170A4600EF1ACC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17AE914C20170A7000EF1ACC /* ZTLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTLog.h; sourceTree = "<group>"; };
+		17AE914D20170A7000EF1ACC /* ZTLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				17AE913720170A4600EF1ACC /* AppDelegate.m */,
 				17AE913920170A4600EF1ACC /* ViewController.h */,
 				17AE913A20170A4600EF1ACC /* ViewController.m */,
+				17AE914C20170A7000EF1ACC /* ZTLog.h */,
+				17AE914D20170A7000EF1ACC /* ZTLog.m */,
 				17AE913C20170A4600EF1ACC /* Main.storyboard */,
 				17AE913F20170A4600EF1ACC /* Assets.xcassets */,
 				17AE914120170A4600EF1ACC /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 			files = (
 				17AE913B20170A4600EF1ACC /* ViewController.m in Sources */,
 				17AE914620170A4600EF1ACC /* main.m in Sources */,
+				17AE914E20170A7000EF1ACC /* ZTLog.m in Sources */,
 				17AE913820170A4600EF1ACC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
